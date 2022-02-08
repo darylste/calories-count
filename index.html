@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calories Count - Landing Page</title>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="text-white">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<div class="container-fluid">
+						<img
+							src="./assets/logo.svg"
+							alt="Calories Count Logo"
+							class="logo-img navbar-brand"
+							style="width: 8rem"
+						/>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ms-5">
+								<li class="nav-item">
+									<a
+										class="nav-link active fs-5 text"
+										aria-current="page"
+										href="./index.html"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link fs-5 text ms-3" href="./contact.html"
+										>Contact</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link fs-5 text ms-3" href="./tracker.html"
+										>Calorie Counter</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- Understanding Calories Section -->
+		<div class="container py-3 my-3">
+			<div class="row">
+				<div class="col-lg py-3">
+					<h2 class="display-6 mb-4">Understanding Calories</h2>
+					<p class="fs-5 text py-2">
+						The amount of energy in an item of food or drink is measured in
+						calories. When we eat and drink more calories than we use up, our
+						bodies store the excess as body fat. If this continues over time we
+						may put on weight.
+					</p>
+					<p class="fs-5 text py-2">
+						As a guide, an average man needs around 2,500kcal (10,500kJ) a day
+						to maintain a healthy body weight. For an average woman, that figure
+						is around 2,000kcal (8,400kJ) a day. These values can vary depending
+						on age, size and levels of physical activity, among other factors.
+					</p>
+				</div>
+				<div class="col-lg py-3 d-flex">
+					<img
+						src="./assets/previewImg.svg"
+						alt="website"
+						class="preview-img img-fluid"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- Feature Section (CTA) -->
+		<div class="container-fluid feature my-5 text-white">
+			<div class="row">
+				<div class="col-lg py-3">
+					<img src="./assets/phonesImg.svg" alt="phones" class="img-fluid" />
+				</div>
+				<div
+					class="col-lg py-3 d-flex flex-column justify-content-center align-items-center"
+				>
+					<h2 class="display-6 mb-4">Try out our Calorie Counter</h2>
+					<p class="fs-5 text">
+						There is a wide range of online calorie counters for computers and
+						mobile phones. Many of these can be downloaded and used for free,
+						like ours!
+					</p>
+
+					<p class="fs-5 text">
+						NHS Choices can't verify their data but they can be helpful to track
+						your calories by recording all of the food you eat in a day.
+					</p>
+					<div class="mt-4">
+						<button type="button" class="btn btn-light mb-5">
+							Start Tracking
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Checking Calories Section -->
+		<div class="container py-5 my-5">
+			<div class="row">
+				<div class="col-lg py-3">
+					<h2 class="display-6 mb-4">Checking calories in food</h2>
+					<p class="fs-5 text">
+						Knowing the calorie content of food and drink can help ensure you're
+						not consuming too much. The calorie content of many shop-bought
+						foods is stated on the packaging as part of the nutrition label.
+					</p>
+					<p class="fs-5 text">
+						This information will appear under the "Energy"; heading. The
+						calorie content is often given in kcals, which is short for
+						'kilocalories', and also in kJ, which is short for 'kilojoules'. A
+						'kilocalorie' is another word for what is commonly called a
+						'calorie', so 1,000 calories will be written as 1,000kcals.
+					</p>
+				</div>
+				<div class="col-lg py-3 d-flex">
+					<img src="./assets/laptopImg.svg" alt="laptop" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="w-100 py-3 mt-4 border-top text-white fixed-bottom">
+			<div class="container d-flex justify-content-around">
+				<img src="./assets/backIcon.svg" alt="back" id="backBtn" />
+				<a href="./contact.html">
+					<img src="./assets/contactIcon.svg" alt="contact" />
+				</a>
+
+				<a href="./tracker.html">
+					<img src="./assets/counterIcon.svg" alt="calorie counter" />
+				</a>
+			</div>
+		</footer>
+
+		<!-- Bootstrap JS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<!-- Custom JS -->
+		<script src="./backBtn.js"></script>
+	</body>
+</html>

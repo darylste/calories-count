@@ -1,0 +1,85 @@
+/* Variables */
+:root {
+	/* Colors */
+	--color-primary: #0f5a24;
+	--color-primary-light: #20bd7d;
+	--color-secondary: #3f4164;
+	--color-secondary-dark: #2d2e40;
+	--color-black: #2b2b2b;
+	--color-grey: #434343;
+	--color-grey-light: #fafafa;
+	--color-white: #eee;
+}
+
+header {
+	background: linear-gradient(
+		135deg,
+		var(--color-primary),
+		var(--color-primary-light)
+	);
+
+	text-align: center;
+}
+
+.navbar {
+	background: unset !important;
+}
+
+.feature {
+	background: linear-gradient(
+		var(--color-secondary),
+		var(--color-secondary-dark)
+	);
+	border-radius: 0 75px 0 75px;
+}
+
+form,
+.tracker {
+	background-color: #eee;
+	border-radius: 10px;
+}
+
+.form-group {
+	position: relative;
+}
+
+.form-control {
+	border-radius: 10px;
+}
+
+.input-tag {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 7.5%;
+	border-radius: 0 10px 10px 0;
+	background-color: var(--color-primary-light);
+}
+
+.btn-success {
+	background-color: var(--color-primary-light);
+}
+
+.food-item {
+	background-color: #eee;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.food-img {
+	height: 75px;
+}
+
+.col {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background: linear-gradient(
+		135deg,
+		var(--color-primary),
+		var(--color-primary-light)
+	);
+}
