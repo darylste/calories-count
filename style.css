@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500&display=swap');
+
 /* Variables */
 :root {
 	/* Colors */
@@ -11,6 +14,27 @@
 	--color-white: #eee;
 }
 
+/* Universal */
+body {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 300;
+}
+
+.display-6 {
+	font-weight: 600;
+}
+
+.col {
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+
+/* Header */
 header {
 	background: linear-gradient(
 		135deg,
@@ -22,9 +46,12 @@ header {
 }
 
 .navbar {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 	background: unset !important;
 }
 
+/* Feature */
 .feature {
 	background: linear-gradient(
 		var(--color-secondary),
@@ -33,6 +60,7 @@ header {
 	border-radius: 0 75px 0 75px;
 }
 
+/* Form */
 form,
 .tracker {
 	background-color: #eee;
@@ -61,6 +89,7 @@ form,
 	background-color: var(--color-primary-light);
 }
 
+/* Calorie Counter */
 .food-item {
 	background-color: #eee;
 	border-radius: 10px;
@@ -71,11 +100,7 @@ form,
 	height: 75px;
 }
 
-.col {
-	margin: 0;
-	padding: 0;
-}
-
+/* Footer */
 footer {
 	background: linear-gradient(
 		135deg,
